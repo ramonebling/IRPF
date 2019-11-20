@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="./style/style.css">
+        <title> Formulario </title>
+    </head>
+
+    <body>
+
+        <div>
+            <center><fieldset id="fieldset">
+                <legend>Cadastro de Dados</legend>
+            
+                <label>Nome:</label>
+                <input type="text" id="nome" name="nome">
+            
+                <label>Salário:</label>
+                <input type="number" id="salario_bruto" name="salario_bruto">
+            
+                <button><label>Registrar</label></button>
+
+            </fieldset>
+        </center>
+        </div>
+
+        <br>
+
+        <div>
+            <center><table border="1" id="lista">
+            <tbody><tr><th> Nome </th><th> Salário Bruto </th>
+                <th> Desconto INSS </th><th> % Desconto INSS </th>
+                <th> Desconto IRPF </th><th> % Desconto IRPF </th>
+                <th> Salário Líquido </th>
+                </tr>
+            </tbody></table></center>      
+        </div>
+
+        <script src="./javascript.js">
+                
+        </script>
+
+    </body>
+
+</html>
